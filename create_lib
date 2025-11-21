@@ -1,7 +1,7 @@
 #!/bin/bash
 
 mkdir src
-cp -r ${CMSIS_PATH}/CMSIS_5/CMSIS/DSP/* .
+cp -r ${CMSIS_PATH}/CMSIS_6/CMSIS/DSP/* .
 cp -r Include/* src
 cp -r PrivateInclude/* src
 cp -r Source src
